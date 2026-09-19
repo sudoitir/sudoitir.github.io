@@ -1,0 +1,7 @@
+# Crawlers only read robots.txt at the host root, so this file governs every
+# project site under sudoitir.github.io. Add each project's sitemap below.
+User-agent: *
+Allow: /
+
+Sitemap: https://sudoitir.github.io/sitemap.xml
+Sitemap: https://sudoitir.github.io/artemis-studio/sitemap.xml
