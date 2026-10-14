@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex">
   <title>Page not found — sudoitir</title>
+  <script>
+    // Artemis Studio is now Rahdar, served from its own domain: send its old addresses to the same page there.
+    (function () {
+      var m = location.pathname.match(/^\/(artemis-studio|rahdar)(\/.*)?$/);
+      if (m) location.replace('https://rahdar.dev' + (m[2] || '/') + location.search + location.hash);
+    })();
+  </script>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <style>
     :root { --bg: #fbfbf9; --fg: #1b1f23; --accent: #0b7285; }
