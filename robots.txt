@@ -4,4 +4,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://sudoitir.github.io/sitemap.xml
-Sitemap: https://sudoitir.github.io/artemis-studio/sitemap.xml
